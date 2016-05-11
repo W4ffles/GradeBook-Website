@@ -6,12 +6,15 @@
   |  *This Project has been done for Mr.Hanson.                                                                                |
 */                                                                                                                            
 /*==============================================================================================================================*/ 
-/*
-  *This Creates Connection to the Database.
+/*==============================================================================================================================*/
+/*|															       |
+  |  *This Creates A Connection to the Database.										       |
 */
+/*==============================================================================================================================*/
 require_once 'GradeBookDB.php';
 $db_server = mysql_connect($host, $username, $password);
 if (!$db_server) die("Unable to connect to MySQL: " . mysql_error());
 mysql_select_db($dbname)
 	or die("Unable to select database: " . mysql_error());
+echo"The Connection has been Established!"
 ?>
