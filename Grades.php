@@ -64,7 +64,7 @@ Confirm Password: <input type="password" name="conf_pwd" />
 
 </pre></form>
 _END;
-echo("Have An Account Already?<button onclick=\"location.href='ArtGalleryPortal.php'\">Log in</button><br />");
+echo("Have An Account Already?<button onclick=\"location.href='GradeLogin.php'\">Log in</button><br />");
 //style='position:absolute;top:180;right:20;border:50;'
 /** 
  * Quality of life function to reduce the amount of code needed to retrieve POST data
