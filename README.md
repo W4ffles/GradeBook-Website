@@ -1,1 +1,1 @@
-# GradeBook-Website
+# GradeBook Website
